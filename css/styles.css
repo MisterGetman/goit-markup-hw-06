@@ -443,17 +443,18 @@ button {
 
 .tertiary-title {
   margin-bottom: 8px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-@media (min-width: 1158px) {
-  .tertiary-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+
+@media (max-width: 1157px) {
+  .enlarged-font {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
   }
 }
 
